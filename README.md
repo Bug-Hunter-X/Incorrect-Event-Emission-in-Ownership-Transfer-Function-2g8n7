@@ -1,0 +1,3 @@
+# Incorrect Event Emission in Ownership Transfer Function
+
+This repository demonstrates a common bug in DApps: incorrect event emission in ownership transfer functions.  The `OwnershipTransferred` event is crucial for the frontend to track ownership changes.  The original code omits the event emission which could lead to the frontend displaying incorrect information or causing other unexpected issues. The solution presents a correct implementation.
